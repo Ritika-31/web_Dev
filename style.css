@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    padding: 20px 50px;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg 17% 70%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    background-color: hsl(347, 16%, 77%);
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: blueviolet;
+    background-image: url(https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vZGVsfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 18%, 70%, 0.256);
+}
+#part3{
+    height: 100%;
+    width: 6%;
+    background-color: hsl(347, 16%, 77%);
+}
+#text_div{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    left: 10%;
+    top: 50%;
+    /* transform: translate(0-50%); */
+}
+#text_div h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 700;
+    letter-spacing: 8px;
+    color: whitesmoke;
+    line-height: 78px;
+}
+#smallimg{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    background-image: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vZGVsfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+#verticaltxt{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    right: -41.5%;
+    transform-origin: 0% 0%;
+}
+#verticaltxt h1{
+    font-size: 67px;
+    font-weight: 800;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    /* letter-spacing: 10px; */
+    -webkit-text-stroke-color: white;
+    color: transparent;
+}
+#navi{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    left: 5%;
+    top: 6%;
+    gap: 60px;
+}
+#navi img{
+    height: 100px;
+    width: 100px;
+}
+#navi p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: white;
+}
